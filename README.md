@@ -579,6 +579,28 @@ public class BioChartRoomProtocol {
 4. 客户端2发送消息
 ![](4-md-io/客户端2.png)
 
+## 命令行版本
+* [**bio-chartroom-server.jar**](https://github.com/yinzhongzheng/bio-chartroom/raw/master/jar/bio-chartroom-server.jar)
+* [**bio-chartroom-client.jar**](https://github.com/yinzhongzheng/bio-chartroom/raw/master/jar/bio-chartroom-client.jar)
+
+**server端参数**
+```
+1. -p=xxx 设置端口号
+```
+**cliet端参数**
+```
+ 1. -a=xxx 设置address
+ 2. -p=xxx 设置端口号
+ 3. -n=xxx 设置nickName
+```
+**启动**
+```
+//启动服务
+java  -jar bio-chartroom-server.jar  -p=6666 
+//启动客户端
+java  -jar bio-chartroom-client.jar  -p=6666 -n=嘿嘿 -a=127.0.0.1 
+```
+
 ## 总结
 1. BIO是阻塞的，接收客户端连接效率不高
 2. 这里我才用了线程池去处理没客户端的交互，性能良好.
