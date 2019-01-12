@@ -1,4 +1,4 @@
-package bio.protocol;
+package com.yzz.chartroom.protocol;
 
 import java.io.Serializable;
 

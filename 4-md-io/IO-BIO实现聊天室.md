@@ -12,8 +12,8 @@
 ```java
 package com.yzz.studyio.bio;
 
-import com.yzz.studyio.bio.protocol.BioChartRoomProtocol;
-import com.yzz.studyio.bio.protocol.Message;
+import com.yzz.studyio.BioChartRoomProtocol;
+import com.yzz.studyio.Message;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -254,9 +254,9 @@ public class BioServer {
 ```java
 package com.yzz.studyio.bio;
 
-import com.yzz.studyio.bio.protocol.BioChartRoomProtocol;
-import com.yzz.studyio.bio.protocol.Header;
-import com.yzz.studyio.bio.protocol.Message;
+import com.yzz.studyio.BioChartRoomProtocol;
+import com.yzz.studyio.Header;
+import com.yzz.studyio.Message;
 
 import java.io.IOException;
 import java.io.InputStream;

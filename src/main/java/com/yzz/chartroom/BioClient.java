@@ -1,9 +1,9 @@
-package bio;
+package com.yzz.chartroom;
 
 
-import bio.protocol.BioChartRoomProtocol;
-import bio.protocol.Header;
-import bio.protocol.Message;
+import com.yzz.chartroom.protocol.BioChartRoomProtocol;
+import com.yzz.chartroom.protocol.Header;
+import com.yzz.chartroom.protocol.Message;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -12,6 +12,7 @@ import java.net.InetAddress;
 import java.net.Socket;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
@@ -20,25 +21,25 @@ import java.util.logging.Logger;
  * 你可以简单这样测试
  *
  * @Since 0.0.1
- *
- *   public class Client {
- *       public static void main(String[] args) {
- *           try {
- *               Scanner sc = new Scanner(System.in);
- *               BioClient bioClient = new BioClient(9090, "127.0.0.1", args[0]);
- *               bioClient.listen12n(message -> {
- *                   System.out.println(message.toString());
- *               });
- *               while (true) {
- *                   String content = sc.next();
- *                   bioClient.sendMsg(content);
- *               }
- *           } catch (Exception e) {
- *               e.printStackTrace();
- *           }
- *       }
- *   }
-*/
+ * <p>
+ * public class Client {
+ * public static void main(String[] args) {
+ * try {
+ * Scanner sc = new Scanner(System.in);
+ * BioClient bioClient = new BioClient(9090, "127.0.0.1", args[0]);
+ * bioClient.listen12n(message -> {
+ * System.out.println(message.toString());
+ * });
+ * while (true) {
+ * String content = sc.next();
+ * bioClient.sendMsg(content);
+ * }
+ * } catch (Exception e) {
+ * e.printStackTrace();
+ * }
+ * }
+ * }
+ */
 public class BioClient {
 
     //服务端端口
@@ -64,6 +65,7 @@ public class BioClient {
 
     /**
      * 该构造初始化了 port、location、nicName 并创建了与服务端通信的Socket连接
+     *
      * @param port
      * @param location
      * @param nicName
@@ -76,10 +78,12 @@ public class BioClient {
         InetAddress inetAddress = InetAddress.getByName(location);
         socket = new Socket(inetAddress, port);
         header = new Header(inetAddress.getHostAddress(), socket.getLocalPort(), nicName);
+        logger.log(Level.INFO, "连接成功: " + location + ":" + port);
     }
 
     /**
      * 向服务端发送消息
+     *
      * @param msg
      * @throws IOException
      */
@@ -91,6 +95,7 @@ public class BioClient {
 
     /**
      * 从服务端接收消息
+     *
      * @return
      * @throws IOException
      */
@@ -117,6 +122,7 @@ public class BioClient {
     /**
      * 监听
      * 开辟一个工作线程去接收服务端转发的消息
+     *
      * @param callback
      */
     public void listen12n(MSGCallback callback) {

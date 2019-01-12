@@ -1,7 +1,7 @@
-package bio;
+package com.yzz.chartroom;
 
-import bio.protocol.BioChartRoomProtocol;
-import bio.protocol.Message;
+import com.yzz.chartroom.protocol.BioChartRoomProtocol;
+import com.yzz.chartroom.protocol.Message;
 
 import java.io.IOException;
 import java.io.InputStream;
