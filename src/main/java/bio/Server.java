@@ -9,7 +9,7 @@ package bio;
 public class Server {
     public static void main(String[] args) {
         try {
-            BioServer bioServer = BioServer.newServerByPort(9090);
+            BioServer bioServer = BioServer.newServerByPort(args.length == 0 ? 2333 : Integer.valueOf(args[0]));
             bioServer.listen();
         } catch (Exception e) {
             e.printStackTrace();
