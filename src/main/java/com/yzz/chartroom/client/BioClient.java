@@ -1,4 +1,4 @@
-package com.yzz.chartroom;
+package com.yzz.chartroom.client;
 
 
 import com.yzz.chartroom.protocol.BioChartRoomProtocol;
@@ -90,7 +90,7 @@ public class BioClient {
     public void sendMsg(String msg) throws IOException {
         OutputStream outputStream = socket.getOutputStream();
         //自定义协议去发送消息
-        BioChartRoomProtocol.write(outputStream, header, msg);
+        BioChartRoomProtocol.getInstance().write(outputStream, header, msg);
     }
 
     /**
@@ -102,7 +102,7 @@ public class BioClient {
     public Message getResponse() throws IOException {
         InputStream inputStream = socket.getInputStream();
         //自定义协议去接收消息，返回消息对象
-        Message message = BioChartRoomProtocol.parse(inputStream);
+        Message message = BioChartRoomProtocol.getInstance().parse(inputStream);
         return message;
     }
 

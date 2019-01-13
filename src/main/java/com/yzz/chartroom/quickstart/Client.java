@@ -1,4 +1,7 @@
-package com.yzz.chartroom;
+package com.yzz.chartroom.quickstart;
+
+import com.yzz.chartroom.client.BioClient;
+import com.yzz.chartroom.server.BioServer;
 
 import java.io.IOException;
 import java.util.Scanner;

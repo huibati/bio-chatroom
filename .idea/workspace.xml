@@ -7,7 +7,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac7b6440-3a20-4bbd-97a8-451cc757b97a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.0.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-md-io/super-架构.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4-md-io/supper-前版本的问题.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yzz/chartroom/protocol/BioChartRoomProtocolSupper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yzz/chartroom/protocol/Protocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yzz/chartroom/quickstart/SuperServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yzz/chartroom/server/AbstractBioServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yzz/chartroom/server/BioServerSupper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bio-chartroom/com/yzz/chartroom/BioClient$MSGCallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bio-chartroom/com/yzz/chartroom/BioClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bio-chartroom/com/yzz/chartroom/BioServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bio-chartroom/com/yzz/chartroom/Client$Argument.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bio-chartroom/com/yzz/chartroom/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bio-chartroom/com/yzz/chartroom/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bio-chartroom/com/yzz/chartroom/protocol/BioChartRoomProtocol.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bio-chartroom/com/yzz/chartroom/protocol/BioChartRoomProtocol.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yzz/chartroom/BioClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yzz/chartroom/client/BioClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yzz/chartroom/BioServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yzz/chartroom/server/BioServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yzz/chartroom/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yzz/chartroom/quickstart/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yzz/chartroom/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yzz/chartroom/quickstart/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yzz/chartroom/protocol/BioChartRoomProtocol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yzz/chartroom/protocol/BioChartRoomProtocol.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,21 +40,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/server/BioServerSupper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/Server.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="24" column="5" lean-forward="true" selection-end-line="26" />
+            <state relative-caret-position="65">
+              <caret line="216" column="30" selection-end-line="231" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,20 +54,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/META-INF/MANIFEST.MF">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/Executors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="226">
+              <caret line="171" column="35" selection-start-line="171" selection-start-column="13" selection-end-line="171" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/AbstractQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="112" column="17" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="386">
-                <caret line="602" lean-forward="true" selection-start-line="602" selection-end-line="602" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="99">
+                <caret line="740" column="31" lean-forward="true" selection-start-line="740" selection-start-column="31" selection-end-line="740" selection-end-column="31" />
                 <folding>
                   <element signature="e#506#507#0" expanded="true" />
                   <element signature="e#533#534#0" expanded="true" />
@@ -67,6 +90,18 @@
                   <element signature="e#791#792#0" expanded="true" />
                   <element signature="e#836#837#0" expanded="true" />
                   <element signature="e#921#922#0" expanded="true" />
+                  <element signature="e#2222#2223#0" expanded="true" />
+                  <element signature="e#2260#2261#0" expanded="true" />
+                  <element signature="e#2309#2310#0" expanded="true" />
+                  <element signature="e#2355#2356#0" expanded="true" />
+                  <element signature="e#2386#2387#0" expanded="true" />
+                  <element signature="e#2421#2422#0" expanded="true" />
+                  <element signature="e#2461#2462#0" expanded="true" />
+                  <element signature="e#2501#2502#0" expanded="true" />
+                  <element signature="e#2539#2540#0" expanded="true" />
+                  <element signature="e#2578#2579#0" expanded="true" />
+                  <element signature="e#2629#2630#0" expanded="true" />
+                  <element signature="e#2677#2678#0" expanded="true" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -75,34 +110,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="43" column="24" selection-end-line="110" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2349#2350#0" expanded="true" />
-                <element signature="e#2387#2388#0" expanded="true" />
-                <element signature="e#2437#2438#0" expanded="true" />
-                <element signature="e#2483#2484#0" expanded="true" />
-                <element signature="e#2515#2516#0" expanded="true" />
-                <element signature="e#2550#2551#0" expanded="true" />
-                <element signature="e#2591#2592#0" expanded="true" />
-                <element signature="e#2631#2632#0" expanded="true" />
-                <element signature="e#2670#2671#0" expanded="true" />
-                <element signature="e#2709#2710#0" expanded="true" />
-                <element signature="e#2761#2762#0" expanded="true" />
-                <element signature="e#2809#2810#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/2.0.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-63">
+                <caret column="8" selection-start-column="8" selection-end-column="8" />
+                <folding>
+                  <element signature="imports" expanded="true" />
+                  <element signature="imports" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/BioServer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/server/BioServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="37" column="40" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="40" />
+            <state relative-caret-position="134">
+              <caret line="90" column="10" selection-end-line="180" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,19 +138,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/protocol/BioChartRoomProtocol.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/server/AbstractBioServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/BioClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+            <state relative-caret-position="378">
+              <caret line="18" column="39" selection-end-line="108" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,24 +150,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/protocol/Header.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/Queue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="118">
+              <caret line="198" column="6" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/protocol/Message.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/ConcurrentLinkedQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-244">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="3">
+              <caret line="355" column="13" selection-start-line="355" selection-start-column="13" selection-end-line="355" selection-end-column="13" />
+              <folding>
+                <element signature="e#10037#10038#0" expanded="true" />
+                <element signature="e#10084#10085#0" expanded="true" />
+                <element signature="e#11364#11365#0" expanded="true" />
+                <element signature="e#11395#11396#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/protocol/BioChartRoomProtocolSupper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="651">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>System</find>
+      <find>provideService</find>
+      <find>clientSockets</find>
+      <find>waitQueue</find>
+      <find>consumerWaitQueue</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -166,7 +215,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/yzz/bio/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yzz/chartroom/Server.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yzz/chartroom/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yzz/chartroom/BioServerSupper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yzz/chartroom/protocol/Protocol.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/yzz/chartroom/BioClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yzz/chartroom/AbstractBioServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yzz/chartroom/BioServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yzz/chartroom/protocol/BioChartRoomProtocol.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yzz/chartroom/protocol/BioChartRoomProtocolSupper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yzz/chartroom/client/BioClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yzz/chartroom/server/BioServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yzz/chartroom/quickstart/SuperServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yzz/chartroom/server/AbstractBioServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/yzz/chartroom/server/BioServerSupper.java" />
+        <option value="$PROJECT_DIR$/2.0.md" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -217,7 +278,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,12 +288,7 @@
             <path>
               <item name="bio-chartroom" type="b2602c69:ProjectViewProjectNode" />
               <item name="bio-chartroom" type="462c0819:PsiDirectoryNode" />
-              <item name="jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bio-chartroom" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bio-chartroom" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="4-md-io" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bio-chartroom" type="b2602c69:ProjectViewProjectNode" />
@@ -283,18 +338,30 @@
             <path>
               <item name="bio-chartroom" type="b2602c69:ProjectViewProjectNode" />
               <item name="bio-chartroom" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yzz" type="462c0819:PsiDirectoryNode" />
+              <item name="chartroom" type="462c0819:PsiDirectoryNode" />
+              <item name="protocol" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bio-chartroom" type="b2602c69:ProjectViewProjectNode" />
               <item name="bio-chartroom" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yzz" type="462c0819:PsiDirectoryNode" />
+              <item name="chartroom" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,18 +370,24 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.16582064" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\idea_study\bio-chartroom\jar" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea_study\bio-chartroom\4-md-io" />
       <recent name="E:\idea_study\bio-chartroom\jar" />
       <recent name="E:\idea_study\bio-chartroom" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yzz.chartroom.protocol" />
+      <recent name="com.yzz.chartroom" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\idea_study\bio-chartroom\jar" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -337,9 +410,9 @@
       </method>
     </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzz.chartroom.Client" />
+      <option name="MAIN_CLASS_NAME" value="com.yzz.chartroom.quickstart.Client" />
       <module name="bio-chartroom" />
-      <option name="PROGRAM_PARAMETERS" value="-a=127.0.0.1 -p=1234 -n=y" />
+      <option name="PROGRAM_PARAMETERS" value="-a=127.0.0.1 -p=8080 -n=y" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="bio.*" />
@@ -351,7 +424,7 @@
       </method>
     </configuration>
     <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yzz.chartroom.Server" />
+      <option name="MAIN_CLASS_NAME" value="com.yzz.chartroom.quickstart.Server" />
       <module name="bio-chartroom" />
       <option name="PROGRAM_PARAMETERS" value="-p=9090" />
       <extension name="coverage">
@@ -364,8 +437,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SuperServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yzz.chartroom.quickstart.SuperServer" />
+      <module name="bio-chartroom" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yzz.chartroom.quickstart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="c2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.yzz.chartroom.quickstart.Client" />
+      <module name="bio-chartroom" />
+      <option name="PROGRAM_PARAMETERS" value="-p=8080" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -394,12 +489,15 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.c2" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Server" />
+      <item itemvalue="Application.SuperServer" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Client" />
+        <item itemvalue="Application.SuperServer" />
         <item itemvalue="Application.Server" />
       </list>
     </recent_temporary>
@@ -415,6 +513,7 @@
       <option name="presentableId" value="Default" />
       <updated>1547300961986</updated>
       <workItem from="1547300963795" duration="10727000" />
+      <workItem from="1547348398691" duration="23301000" />
     </task>
     <task id="LOCAL-00001" summary="增加md">
       <created>1547301232863</created>
@@ -434,38 +533,74 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10727000" />
+    <option name="totallyTimeSpent" value="34028000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25454545" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32838285" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5007576" side_tool="true" weight="0.32838285" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" weight="0.68151814" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933994" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" weight="0.6188119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3960396" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Maven" weight="0.32954547" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007576" side_tool="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32838285" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32838285" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32954547" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25454545" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" weight="0.6188119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3960396" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007576" side_tool="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32838285" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32838285" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32954547" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -476,7 +611,8 @@
     </ignored-roots>
     <MESSAGE value="增加md" />
     <MESSAGE value="增加命令行版本" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加命令行版本" />
+    <MESSAGE value="升级版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="升级版本" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/4-md-io/IO-BIO实现聊天室.md">
@@ -489,58 +625,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/protocol/BioChartRoomProtocol.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/protocol/Header.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/protocol/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-244">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/BioServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="37" column="40" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/BioClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -551,11 +640,205 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/io/ObjectInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="926" column="15" selection-start-line="926" selection-start-column="15" selection-end-line="926" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/protocol/Protocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/io/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="259" column="15" selection-start-line="259" selection-start-column="15" selection-end-line="259" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/io/BufferedInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="402" column="64" selection-start-line="402" selection-start-column="26" selection-end-line="402" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/ForkJoinPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="2531" column="11" selection-start-line="2531" selection-start-column="11" selection-end-line="2531" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/quickstart/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="21" column="151" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="151" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/quickstart/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/quickstart/SuperServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/client/BioClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/protocol/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#453#454#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/protocol/Header.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#929#930#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/protocol/BioChartRoomProtocol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/ConcurrentLinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="355" column="13" selection-start-line="355" selection-start-column="13" selection-end-line="355" selection-end-column="13" />
+          <folding>
+            <element signature="e#10037#10038#0" expanded="true" />
+            <element signature="e#10084#10085#0" expanded="true" />
+            <element signature="e#11364#11365#0" expanded="true" />
+            <element signature="e#11395#11396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="198" column="6" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/AbstractQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="112" column="17" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="171" column="35" selection-start-line="171" selection-start-column="13" selection-end-line="171" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/protocol/BioChartRoomProtocolSupper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/server/AbstractBioServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="39" selection-end-line="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/server/BioServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="90" column="10" selection-end-line="180" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/server/BioServerSupper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="216" column="30" selection-end-line="231" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.0.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="386">
-            <caret line="602" lean-forward="true" selection-start-line="602" selection-end-line="602" />
+          <first_editor relative-caret-position="-63">
+            <caret column="8" selection-start-column="8" selection-end-column="8" />
+            <folding>
+              <element signature="imports" expanded="true" />
+              <element signature="imports" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="99">
+            <caret line="740" column="31" lean-forward="true" selection-start-line="740" selection-start-column="31" selection-end-line="740" selection-end-column="31" />
             <folding>
               <element signature="e#506#507#0" expanded="true" />
               <element signature="e#533#534#0" expanded="true" />
@@ -569,41 +852,21 @@
               <element signature="e#791#792#0" expanded="true" />
               <element signature="e#836#837#0" expanded="true" />
               <element signature="e#921#922#0" expanded="true" />
+              <element signature="e#2222#2223#0" expanded="true" />
+              <element signature="e#2260#2261#0" expanded="true" />
+              <element signature="e#2309#2310#0" expanded="true" />
+              <element signature="e#2355#2356#0" expanded="true" />
+              <element signature="e#2386#2387#0" expanded="true" />
+              <element signature="e#2421#2422#0" expanded="true" />
+              <element signature="e#2461#2462#0" expanded="true" />
+              <element signature="e#2501#2502#0" expanded="true" />
+              <element signature="e#2539#2540#0" expanded="true" />
+              <element signature="e#2578#2579#0" expanded="true" />
+              <element signature="e#2629#2630#0" expanded="true" />
+              <element signature="e#2677#2678#0" expanded="true" />
             </folding>
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="43" column="24" selection-end-line="110" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2349#2350#0" expanded="true" />
-            <element signature="e#2387#2388#0" expanded="true" />
-            <element signature="e#2437#2438#0" expanded="true" />
-            <element signature="e#2483#2484#0" expanded="true" />
-            <element signature="e#2515#2516#0" expanded="true" />
-            <element signature="e#2550#2551#0" expanded="true" />
-            <element signature="e#2591#2592#0" expanded="true" />
-            <element signature="e#2631#2632#0" expanded="true" />
-            <element signature="e#2670#2671#0" expanded="true" />
-            <element signature="e#2709#2710#0" expanded="true" />
-            <element signature="e#2761#2762#0" expanded="true" />
-            <element signature="e#2809#2810#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/yzz/chartroom/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="24" column="5" lean-forward="true" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
