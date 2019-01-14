@@ -603,7 +603,7 @@ java  -jar bio-chartroom-client.jar  -p=6666 -n=嘿嘿 -a=127.0.0.1
 ### **客户端quick start**
 
 ```java
-package com.yzz.chartroom;
+package com.yzz.chatroom;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -618,7 +618,7 @@ import java.util.logging.Logger;
  */
 public class Client {
     private final static String MSG = "please input msg: \n 1. -a=xxx 设置address \n 2. -p=xxx 设置端口号 \n 3. -n=xxx 设置nickName ";
-    private static Logger logger = Logger.getLogger("bio-chartroom-client");
+    private static Logger logger = Logger.getLogger(chatroom);
     public static final String NICK_NAME = "尹忠政";
 
 
@@ -717,9 +717,7 @@ public class Client {
 ```
 ### **服务端quick start**
 ```java
-package com.yzz.chartroom;
-
-import java.util.logging.Level;
+package com.yzz.chartrcom.yzz.chatroom.util.logging.Level;
 import java.util.logging.Logger;
 
 /**

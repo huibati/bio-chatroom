@@ -1,6 +1,6 @@
-package com.yzz.chartroom.quickstart;
+package com.yzz.chatroom.quickstart;
 
-import com.yzz.chartroom.server.BioServer;
+import com.yzz.chatroom.server.BioServer;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;

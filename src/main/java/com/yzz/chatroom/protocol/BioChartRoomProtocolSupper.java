@@ -1,4 +1,4 @@
-package com.yzz.chartroom.protocol;
+package com.yzz.chatroom.protocol;
 
 import java.io.*;
 

@@ -1,7 +1,7 @@
-package com.yzz.chartroom.quickstart;
+package com.yzz.chatroom.quickstart;
 
-import com.yzz.chartroom.client.BioClient;
-import com.yzz.chartroom.server.BioServer;
+import com.yzz.chatroom.client.BioClient;
+import com.yzz.chatroom.server.BioServer;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -16,7 +16,7 @@ import java.util.logging.Logger;
  */
 public class Client {
     private final static String MSG = "please input msg: \n 1. -a=xxx 设置address \n 2. -p=xxx 设置端口号 \n 3. -n=xxx 设置nickName ";
-    private static Logger logger = Logger.getLogger("bio-chartroom-client");
+    private static Logger logger = Logger.getLogger("bio-chatroom-client");
     public static final String NICK_NAME = "尹忠政";
 
 

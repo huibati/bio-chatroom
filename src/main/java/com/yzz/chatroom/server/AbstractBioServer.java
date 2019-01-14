@@ -1,6 +1,6 @@
-package com.yzz.chartroom.server;
+package com.yzz.chatroom.server;
 
-import com.yzz.chartroom.protocol.Message;
+import com.yzz.chatroom.protocol.Message;
 
 import java.io.IOException;
 import java.net.InetAddress;

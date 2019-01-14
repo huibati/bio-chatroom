@@ -1,7 +1,7 @@
-package com.yzz.chartroom.quickstart;
+package com.yzz.chatroom.quickstart;
 
-import com.yzz.chartroom.server.BioServer;
-import com.yzz.chartroom.server.BioServerSupper;
+import com.yzz.chatroom.server.BioServer;
+import com.yzz.chatroom.server.BioServerSupper;
 
 import java.io.IOException;
 import java.util.logging.Logger;
@@ -14,7 +14,7 @@ import java.util.logging.Logger;
  */
 public class SuperServer {
     private final static String MSG = "please input msg: \n 1. -p=xxx 设置端口号 ";
-    private static Logger logger = Logger.getLogger("bio-chartroom-supper--client");
+    private static Logger logger = Logger.getLogger("bio-chatroom-supper--client");
 
     public static void main(String[] args) {
         BioServerSupper serverSupper = null;

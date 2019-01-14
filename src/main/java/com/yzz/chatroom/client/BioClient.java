@@ -1,9 +1,9 @@
-package com.yzz.chartroom.client;
+package com.yzz.chatroom.client;
 
 
-import com.yzz.chartroom.protocol.BioChartRoomProtocol;
-import com.yzz.chartroom.protocol.Header;
-import com.yzz.chartroom.protocol.Message;
+import com.yzz.chatroom.protocol.BioChartRoomProtocol;
+import com.yzz.chatroom.protocol.Header;
+import com.yzz.chatroom.protocol.Message;
 
 import java.io.IOException;
 import java.io.InputStream;

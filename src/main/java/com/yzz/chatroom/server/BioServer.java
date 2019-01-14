@@ -1,7 +1,7 @@
-package com.yzz.chartroom.server;
+package com.yzz.chatroom.server;
 
-import com.yzz.chartroom.protocol.BioChartRoomProtocol;
-import com.yzz.chartroom.protocol.Message;
+import com.yzz.chatroom.protocol.BioChartRoomProtocol;
+import com.yzz.chatroom.protocol.Message;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -10,7 +10,6 @@ import java.util.Iterator;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  * describe: 聊天室服务端
